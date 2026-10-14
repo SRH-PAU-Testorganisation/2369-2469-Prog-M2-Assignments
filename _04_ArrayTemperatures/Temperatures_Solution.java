@@ -14,8 +14,8 @@ void main()
 
     // Berechnungen (Aufgabe 1)
     double temperaturesSum = 0;
-    double temperatureMax  = -99999999; // Eine sehr kleine Zahl würde auch funktionieren
-    double temperatureMin  = 999999999; // Eine sehr große Zahl würde auch funktionieren
+    double temperatureMax  = Double.NEGATIVE_INFINITY; // Eine sehr kleine Zahl würde auch funktionieren
+    double temperatureMin  = Double.POSITIVE_INFINITY; // Eine sehr große Zahl würde auch funktionieren
     for (int i = 0; i < temperatures.length; i++)
     {
         // Für die einfachere lesbarkeit
