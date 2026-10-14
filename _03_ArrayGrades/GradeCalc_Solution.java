@@ -23,13 +23,12 @@ void main()
     }
 
     // ====== Aufgabe 2 ======
-    double gradesSum     = 0;
-    double gradesAverage = 0;
+    double gradesSum = 0;
     for (int i = 0; i < grades.length; i++)
     {
         gradesSum += grades[i];
-        gradesAverage = gradesSum / (i + 1);
     }
+    double gradesAverage = gradesSum / grades.length;
     IO.println("Summe: "        + gradesSum);
     IO.println("Durchschnitt: " + gradesAverage);
 
