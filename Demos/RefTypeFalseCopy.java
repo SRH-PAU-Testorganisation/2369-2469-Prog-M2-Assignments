@@ -3,7 +3,7 @@ void main()
     String[] shoppingCart = {
             "Kornflakes",
             "Weißes Monster™️ Energy",
-            "Tangliatelle",
+            "Tagliatelle",
             "Studentenfutter",
             "100 kg Kartoffeln",
             "Katzenfutter",
