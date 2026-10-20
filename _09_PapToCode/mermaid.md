@@ -34,6 +34,7 @@ Damit Sie diese Diagramme _sehen_ können, müssen Sie das
 [IntelliJ-Mermaid-Plugin](https://plugins.jetbrains.com/plugin/20146-mermaid) installieren. Das geht
 innerhalb von IntelliJ zum Glück mit ein paar Klicks.
 
+<!-- TODO: Marketplace Tab -->
 ![Schritt 1](../Resources/install_mermaid_step_1.png)
 ![Schritt 2](../Resources/install_mermaid_step_2.png)
 ![Schritt 3](../Resources/install_mermaid_step_3.png)

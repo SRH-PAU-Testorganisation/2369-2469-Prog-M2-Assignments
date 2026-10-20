@@ -18,7 +18,7 @@ folgendem PAP. Ein- und Ausgabe sollen nicht _in_ der Funktion implementiert wer
 
 ```mermaid
 flowchart 
-    A((Start)) --> B[/E: Einkaufswert einlesen/]
+    A([Start]) --> B[/E: Einkaufswert einlesen/]
     B --> C{Einkaufswert >= 100?}
     subgraph Funktion
         C -- Ja --> D[Rabatt = Einkaufswert * 0.10]
@@ -27,5 +27,5 @@ flowchart
         E --> F
     end
     F --> G[/A: Endpreis ausgeben/]
-    G --> H((Stop))
+    G --> H([Ende])
 ```

@@ -8,13 +8,13 @@ Versuchen Sie, auf Hilfsvariablen zum Zwischenspeichern von Werten zu verzichten
 # Aufgabe 2
 Betrachten Sie den untenstehenden Code.
 - Beschreiben Sie kurz, was der Zweck des Codes ist.
-- Schreiben Sie den Code nun so um, dass sich die Logik in einer Funktion mit einem Parameter undRückgabewert befindet. Stellen Sie dazu folgende Überlegungen an:
+- Schreiben Sie den Code nun so um, dass sich die Logik in einer Funktion mit einem Parameter und Rückgabewert befindet. Stellen Sie dazu folgende Überlegungen an:
     - Geben Sie der Funktion einen aussagekräftigen Namen, die den Zweck wiederspiegelt.
     - Was sollte die Funktion als Parameter entgegennehmen, d.h. was ist die Eingabe, die
     von außerhalb kommt?
     - Welchen Rückgabewert sollte die Funktion haben?
     - Welcher Teil des Codes gehört logisch zur Funktionalität? Welcher nicht?
-- Abschließend soll die Funktion in einer Main-Methode aufgerufen und das Ergebnis auf die Konsoleausgegeben werden.
+- Abschließend soll die Funktion in der Main-Methode aufgerufen und das Ergebnis auf die Konsole ausgegeben werden.
 
 ```java
 int[] numbers = {7, 4, 9, 2, 3};
@@ -29,13 +29,13 @@ IO.println(sum);
 ```
 
 # Aufgabe 3
-Teilen Sie eine kleine Übungsaufgabe
-- Implementieren Sie eine Funktion `isEven()`, die als Parameter ein `int` engegennimmt und
+Teilen Sie eine kleine Übungsaufgabe in Funktionen auf:
+- Implementieren Sie eine Funktion `isEven()`, die als Parameter ein `int` entgegennimmt und
   zurückgibt, ob die Zahl gerade oder ungerade ist. Überlegen Sie sich hierzu,
   welcher Datentyp für den Rückgabewert sinnvoll ist.
   Bei Bedarf können Sie mit mehreren `return`-Statements arbeiten.
 - Definieren Sie nun eine zweite Funktion `printEvenValues()`,
-  die als Parameter ein `int`-Arrayentgegennimmt. Diese Funktion soll keinen Rückgabewert
+  die als Parameter ein `int`-Array entgegennimmt. Diese Funktion soll keinen Rückgabewert
   haben, sondern alle geraden Zahlen im Array direkt auf die Konsole ausgeben.
   Hierzu sollen Sie die Funktion `isEven()`, die Sie implementiert haben, aufrufen.
 - Prüfen Sie Ihre Funktion `printEvenValues()` per Aufruf in der Main-Methode mit

@@ -11,7 +11,7 @@ double[] grades  = new double[Integer.parseInt(userInput)];
 ```
 ```mermaid
 flowchart
-    Start((Start))
+    Start([Start])
     -->
     InpGrAmount[/E: Wie viele Noten sollen eingetragen werden?/]
     -->
@@ -35,7 +35,7 @@ flowchart
 ## Aufgabe 2 (Musterlösung)
 ```mermaid
 flowchart
-    Start((Start))
+    Start([Start])
     -->
     Init[Summe = 0\nDurchschnitt = 0]
     -->
@@ -57,7 +57,7 @@ flowchart
 ## Aufgabe 3 (Musterlösung)
 ```mermaid
 flowchart
-    Start((Start))
+    Start([Start])
     -->
     Init[Anzahl gute Noten = 0]
     -->
@@ -76,5 +76,5 @@ flowchart
     --ja-->
     OutpAvg[/"A: Anzahl der guten Noten"/]
     --->
-    Ende((Ende))
+    Ende([Ende])
 ```
